@@ -10,7 +10,7 @@ If you have any questions, sign up to [community.mattermost.com](https://communi
 
 You can edit or create Mattermost documentation directly in GitHub or by downloading the repo onto your machine and using an editor such as Atom. Consult the Mattermost [Documentation Style Guide](https://handbook.mattermost.com/operations/operations/company-processes/publishing/publishing-guidelines/voice-tone-and-writing-style-guidelines/documentation-style-guide) and [reStructuredText Markup](https://handbook.mattermost.com/operations/operations/company-processes/publishing/publishing-guidelines/voice-tone-and-writing-style-guidelines/documentation-style-guide#using-restructuredtext-markup-rst) section for stylistic and technical guidance.
 
-If this is your first time contributing to Mattermost, first read the [Mattermost Contributor Agreement](https://www.mattermost.org/mattermost-contributor-agreement/) and sign it (at the bottom of the page), so you can be added to the Mattermost [Approved Contributor List](https://docs.google.com/spreadsheets/d/1NTCeG-iL_VS9bFqtmHSfwETo5f-8MQ7oMDE5IUYJi_Y/pubhtml?gid=0&single=true).
+If this is your first time contributing to Mattermost, first read the [Mattermost Contributor Agreement](https://www.mattermost.org/mattermost-contributor-agreement/) and sign in(at the bottom of the page), so you can be added to the Mattermost [Approved Contributor List](https://docs.google.com/spreadsheets/d/1NTCeG-iL_VS9bFqtmHSfwETo5f-8MQ7oMDE5IUYJi_Y/pubhtml?gid=0&single=true).
 
 ### Editing
 
@@ -36,7 +36,7 @@ Once a pull request is submitted, multiple committers may comment on it and prov
 
 ### Reviewing Pull Requests
 
-Once a pull request has been submitted and the correct label assigned, the review process begins. This includes aligning the content with the Style Guide, validating processes, and tagging any other relevant committers. You can read more about the review process and expectations [here](https://developers.mattermost.com/contribute/getting-started/code-review/). 
+Once a pull request has been submitted and the correct label assigned, the review process begins. This includes aligning the content with the Style Guide, validating processes, and tagging any other relevant committees. You can read more about the review process and expectations [here](https://developers.mattermost.com/contribute/getting-started/code-review/). 
 
 Once the review process is complete and depending on the type of issue it is (e.g., a typo fix vs. a new feature), the change is either merged into master and pushed immediately or merged into the release branch and pushed in alignment with the release. The branch is then deleted. 
 
@@ -50,7 +50,7 @@ If you've downloaded the repo and are editing Mattermost documentation on your l
 2. Install [pipenv](https://docs.pipenv.org/): `pip install pipenv`. 
 3. `cd` into the cloned repository.
 4. Install the required packages: `pipenv install`.
-5. Build the doc set using `make html`. This generates files in `/build` directory.
+5. Build the doc set using `make HTML`. This generates files in `/build` directory.
 6. Navigate to the `/build` directory to preview the page/s you've edited. 
 
-The build process may generate this error: ``WARNING: toctree contains reference to document u'foo' that doesn't have a title: no link will be generated``. It can be ignored as it does not negatively impact the documentation. 
+The build process may generate this error: ``WARNING: toctree contains a reference to document for' that doesn't have a title: no link will be generated``. It can be ignored as it does not negatively impact the documentation. 
